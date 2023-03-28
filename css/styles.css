@@ -6,23 +6,15 @@ html{
     -webkit-text-size-adjust: 100%;
 }
 body {
-    /* display:flex; 
-    justify-content:center;
-    align-items: center;
-    height: 100vh;
-    background-color: blue;
-    box-sizing: border-box; */
+   
     background-color: hsl(225, 100%, 94%);
     background-image: url('../images/pattern-background-desktop.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     box-sizing: border-box; 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
   }
 .container{
     background-color: hsl(225, 100%, 98%);
